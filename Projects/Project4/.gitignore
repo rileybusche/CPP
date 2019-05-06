@@ -1,0 +1,6 @@
+# Ignore these files
+.vscode/
+.DS_Store
+*.d
+*.o
+a.out

@@ -54,8 +54,7 @@ int main(int argc, char *argv[]){
     inFileCompany.open(argv[1]);
 
     if(!inFileCompany){
-        cerr << "Could not open: " << argv[1] << endl;
-        return 1; 
+        cerr << "Could not open: " << argv[1] << endl; 
     }
 
     ifstream inFileData;
@@ -63,7 +62,6 @@ int main(int argc, char *argv[]){
 
     if(!inFileData){
         cerr << "Could not open: " << argv[2] << endl;
-        return 1; 
     }
 
     string line;

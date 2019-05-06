@@ -49,8 +49,8 @@ void Storm::Birth(){
     srand((unsigned)time(0));
     int storm_size = (rand()%12)+1;
     for (int i = 0; i < storm_size; i++){
-        Drop temp = Drop();
-        drops.push_back(temp);
+        // Drop temp = Drop();
+        drops.push_back(Drop());
     }
 }
 
